@@ -35,29 +35,29 @@
 ## 学习安排
 ### 阶段 1
 1. 自然语言处理和深度学习简介  
-- **slides:** [lecture01-introduction](http://web.stanford.edu/class/cs224n/lectures/lecture1.pdf)
+- **slides:** [lecture01-introduction]()
 - 观看视频，了解自然语言处理的历史、背景和整个课程安排
 - 学习笔记：[自然语言处理与深度学习简介](http://www.hankcs.com/nlp/cs224n-introduction-to-nlp-and-deep-learning.html)
 
 2. 词的向量表示1：
-- **slides:** [lecture02-word2vec1](http://web.stanford.edu/class/cs224n/lectures/lecture2.pdf) 
+- **slides:** [lecture02-word2vec1]() 
 - 观看视频
 - 学习笔记：[wordvecotor](http://www.hankcs.com/nlp/word-vector-representations-word2vec.html)
 
 3. 论文导读：一个简单但很难超越的Sentence Embedding基线方法
-- **slides:** [paper1](http://web.stanford.edu/class/cs224n/lectures/lecture2.pdf) 
+- **slides:** [paper1]() 
 - **论文笔记**：[Sentence Embedding](http://www.hankcs.com/nlp/cs224n-sentence-embeddings.html)
 4. 作业：Assignment 1.1-1.2  
 - 1.1 Softmax  
 - 1.2 Neural Network Basics  
 ### 阶段 2
 1.  高级词向量表示：word2vec 2
-- **slides:** [lecture03](http://web.stanford.edu/class/cs224n/lectures/lecture3.pdf)
+- **slides:** [lecture03]()
 - 观看视频，了解
-- 学习笔记： [word2vec 2](http://www.hankcs.com/nlp/cs224n-advanced-word-vector-representations.html)
+- 学习笔记： [word2vec-2](http://www.hankcs.com/nlp/cs224n-advanced-word-vector-representations.html)
 
 2. Word Window分类与神经网络
-- **slides:** [lecture04](http://web.stanford.edu/class/cs224n/lectures/lecture4.pdf) 
+- **slides:** [lecture04]() 
 - 观看视频
 - 学习笔记：[Word Window分类与神经网络](http://www.hankcs.com/nlp/cs224n-word-window-classification-and-neural-networks.html)
 
