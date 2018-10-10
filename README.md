@@ -82,10 +82,10 @@
 - [观看视频](https://www.bilibili.com/video/av30326868/?p=5)
 - 学习笔记： [反向传播与项目指导](http://www.hankcs.com/nlp/cs224n-backpropagation-and-project-advice.html)
 
-2. TensorFlow入门
+2. 依赖解析：Dependency Parsing 
 - **课件:** lecture06
 - [观看视频](https://www.bilibili.com/video/av30326868/?p=6)
-- 学习笔记：[TensorFlow](http://www.hankcs.com/nlp/cs224n-tensorflow.html)
+- 学习笔记： [句法分析和依赖解析](http://www.hankcs.com/nlp/cs224n-dependency-parsing.html)
 
 3. 论文导读：高效文本分类
 - **课件:** [paper]
@@ -94,10 +94,11 @@
 - 2.1 Tensorflow Softmax
 
 ### 阶段 4
-1.  反向传播与项目指导：Dependency Parsing 、、、、、、、、、、、、、、、
+1. 
+TensorFlow入门
 - **课件:** lecture07
 - [观看视频](https://www.bilibili.com/video/av30326868/?p=7)
-- 学习笔记： [句法分析和依赖解析](http://www.hankcs.com/nlp/cs224n-dependency-parsing.html)
+- 学习笔记：[TensorFlow](http://www.hankcs.com/nlp/cs224n-tensorflow.html)
 
 2. RNN和语言模型
 - **课件:** lecture08
@@ -117,7 +118,7 @@
 
 2. 期中复习
 - **课件:** lecture10
-- [观看视频](https://www.bilibili.com/video/av30326868/?p=2)
+- [观看视频](https://www.bilibili.com/video/av30326868/?p=10)
 
 3. 论文导读：基于转移的神经网络句法分析的结构化训练
 - **课件:** [paper]
