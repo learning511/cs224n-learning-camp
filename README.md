@@ -34,30 +34,30 @@
 为了让大家逐渐适应英文阅读，复习材料我们有中英两个版本，**但是推荐大家读英文**
 ### 数学工具
 **斯坦福资料：**  
-1.[线性代数](http://web.stanford.edu/class/cs224n/readings/cs229-linalg.pdf)  
-2.[概率论](http://web.stanford.edu/class/cs224n/readings/cs229-prob.pdf)  
-3.[凸函数优化](http://web.stanford.edu/class/cs224n/readings/cs229-cvxopt.pdf)  
-4.[随机梯度下降算法](http://cs231n.github.io/optimization-1/)  
+- [线性代数](http://web.stanford.edu/class/cs224n/readings/cs229-linalg.pdf)  
+- [概率论](http://web.stanford.edu/class/cs224n/readings/cs229-prob.pdf)  
+- [凸函数优化](http://web.stanford.edu/class/cs224n/readings/cs229-cvxopt.pdf)  
+- [随机梯度下降算法](http://cs231n.github.io/optimization-1/)  
 **中文资料：**  
-[机器学习中的数学基本知识](https://www.cnblogs.com/steven-yang/p/6348112.html)  
-[统计学习方法](http://vdisk.weibo.com/s/vfFpMc1YgPOr)  
+- [机器学习中的数学基本知识](https://www.cnblogs.com/steven-yang/p/6348112.html)  
+- [统计学习方法](http://vdisk.weibo.com/s/vfFpMc1YgPOr)  
 **大学课本**  
 
 ### 编程工具 
 **斯坦福资料：**  
-[Python复习](http://web.stanford.edu/class/cs224n/lectures/python-review.pdf)  
+- [Python复习](http://web.stanford.edu/class/cs224n/lectures/python-review.pdf)  
 **中文资料：**  
-[莫烦python教程](https://morvanzhou.github.io/tutorials/python-basic/basic/)  
-[廖雪峰python3教程](https://www.liaoxuefeng.com/article/001432619295115c918a094d8954bd493037b03d27bf9a9000)  
+- [莫烦python教程](https://morvanzhou.github.io/tutorials/python-basic/basic/)  
+- [廖雪峰python3教程](https://www.liaoxuefeng.com/article/001432619295115c918a094d8954bd493037b03d27bf9a9000)  
 
 ## 学习安排
-每周具体时间划分:  
-     - 1部分安排周一到周二  
-     - 2部分安排在周四到周五  
-     - 3部分安排在周日  
-     - 4部分作业是本周任何时候空余时间    
-     - 周日晚上提交作业运行截图  
-     - 周三、周六休息^_^     
+每周具体时间划分为4个部分:  
+- 1部分安排周一到周二  
+- 2部分安排在周四到周五  
+- 3部分安排在周日  
+- 4部分作业是本周任何时候空余时间    
+- 周日晚上提交作业运行截图  
+- 周三、周六休息^_^     
 ### Week1
 1. 自然语言处理和深度学习简介  
 - **课件:** [lecture01]()
@@ -201,7 +201,7 @@
 - ****学习笔记****： [DMN与问答系统](http://www.hankcs.com/nlp/cs224n-dmn-question-answering.html)
 
 2.  NLP存在的问题与未来的架构
-- **课件:** lecture17
+- **课件:** [lecture17]
 - [观看视频](https://www.bilibili.com/video/av30326868/?p=17)
 - ****学习笔记****：[指代消解](http://www.hankcs.com/nlp/cs224n-nlp-issues-architectures.html)
 
@@ -211,10 +211,10 @@
 6. 比赛（待定）
 
 ### Week10 
-1.   DMN与问答系统
-- **课件:** lecture16
-- [观看视频](https://www.bilibili.com/video/av30326868/?p=16)
-- ****学习笔记****： [DMN与问答系统](http://www.hankcs.com/nlp/cs224n-dmn-question-answering.html)
+1. 挑战深度学习与自然语言处理的极限
+- **课件:** lecture18
+- [观看视频](https://www.bilibili.com/video/av30326868/?p=18)
+- ****学习笔记****： [挑战深度学习与自然语言处理的极限](http://www.hankcs.com/nlp/cs224n-tackling-the-limits-of-dl-for-nlp.html)
 
 2. **论文导读**：neural-turing-machines
 - **课件:** [paper]
