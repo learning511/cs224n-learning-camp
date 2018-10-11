@@ -46,7 +46,7 @@
 ### 编程工具 
 **斯坦福资料：**  
 - [Python复习](http://web.stanford.edu/class/cs224n/lectures/python-review.pdf)  
-**中文资料：**  
+**中文资料：**   
 - [莫烦python教程](https://morvanzhou.github.io/tutorials/python-basic/basic/)  
 - [廖雪峰python3教程](https://www.liaoxuefeng.com/article/001432619295115c918a094d8954bd493037b03d27bf9a9000)  
 
@@ -60,12 +60,12 @@
 - 周三、周六休息^_^     
 ### Week1
 1. 自然语言处理和深度学习简介  
-- **课件:** [lecture01]()
+- **课件:** [lecture01](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture1.pdf)
 - [观看视频1](https://www.bilibili.com/video/av30326868/?spm_id_from=333.788.videocard.0)
 - **学习笔记**：[自然语言处理与深度学习简介](http://www.hankcs.com/nlp/cs224n-introduction-to-nlp-and-deep-learning.html)
 
 2. 词的向量表示1：
-- **课件:** [lecture02]() 
+- **课件:** [lecture02](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture2.pdf) 
 - [观看视频2](https://www.bilibili.com/video/av30326868/?p=2)
 - **学习笔记**：[wordvecotor](http://www.hankcs.com/nlp/word-vector-representations-word2vec.html)
 
@@ -77,12 +77,12 @@
 - 1.2 Neural Network Basics 基础实现
 ### Week2
 1.  高级词向量表示：word2vec 2
-- **课件:** [lecture03]()
+- **课件:** [lecture03](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture3.pdf)
 - [观看视频3](https://www.bilibili.com/video/av30326868/?p=3)
 - **学习笔记**： [word2vec-2](http://www.hankcs.com/nlp/cs224n-advanced-word-vector-representations.html)
 
 2. Word Window分类与神经网络
-- **课件:** [lecture04]() 
+- **课件:** [lecture04](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture4.pdf) 
 - [观看视频4](https://www.bilibili.com/video/av30326868/?p=4)
 - **学习笔记**：[Word Window分类与神经网络](http://www.hankcs.com/nlp/cs224n-word-window-classification-and-neural-networks.html)
 
@@ -94,12 +94,12 @@
 - 1.4 Sentiment Analysis 情绪分析  
 ### Week3
 1. 反向传播与项目指导：Backpropagation and Project Advice
-- **课件:** [lecture05]()
+- **课件:** [lecture05](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture5.pdf)
 - [观看视频5](https://www.bilibili.com/video/av30326868/?p=5)
 - **学习笔记:** [反向传播与项目指导](http://www.hankcs.com/nlp/cs224n-backpropagation-and-project-advice.html)
 
 2. 依赖解析：Dependency Parsing 
-- **课件:** lecture06
+- **课件:** [lecture06](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture3.pdf)
 - [观看视频6](https://www.bilibili.com/video/av30326868/?p=6)
 - **学习笔记:** [句法分析和依赖解析](http://www.hankcs.com/nlp/cs224n-dependency-parsing.html)
 
@@ -111,12 +111,12 @@
 
 ### Week4
 1. TensorFlow入门
-- **课件:** lecture07
+- **课件:** [lecture07](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture7-tensorflow.pdf)
 - [观看视频](https://www.bilibili.com/video/av30326868/?p=7)
 - **学习笔记**：[TensorFlow](http://www.hankcs.com/nlp/cs224n-tensorflow.html)
 
 2. RNN和语言模型
-- **课件:** lecture08
+- **课件:** [lecture08](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture8.pdf)
 - [观看视频](https://www.bilibili.com/video/av30326868/?p=8)
 - **学习笔记**：[RNN和语言模型](http://www.hankcs.com/nlp/cs224n-rnn-and-language-models.html)
 
@@ -128,12 +128,12 @@
 
 ### Week5
 1.  高级LSTM及GRU：LSTM and GRU
-- **课件:** [lecture09]()
+- **课件:** [lecture09](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture9.pdf)
 - [观看视频](https://www.bilibili.com/video/av30326868/?p=9)
 - **学习笔记**： [高级LSTM及GRU](http://www.hankcs.com/nlp/cs224n-mt-lstm-gru.html)
 
 2. 期中复习
-- **课件:** [lecture-mid]()
+- **课件:** [lecture-mid](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-midterm-review.pdf)
 - [观看视频](https://www.youtube.com/watch?v=2DYxT4OMAmw&list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6&index=10)
 
 3. 论文导读：基于转移的神经网络句法分析的结构化训练
@@ -144,12 +144,12 @@
 
 ### Week6
 1.  机器翻译、序列到序列、注意力模型：Machine Translation, Seq2Seq and Attention 
-- **课件:** lecture10
+- **课件:** [lecture10](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture10.pdf)
 - [观看视频](https://www.bilibili.com/video/av30326868/?p=10)
 - **学习笔记**： [机器翻译、序列到序列、注意力模型]http://www.hankcs.com/nlp/cs224n-9-nmt-models-with-attention.html)
 
 2. GRU和NMT的进阶
-- **课件:** lecture11
+- **课件:** [lecture11](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture11.pdf)
 - [观看视频](https://www.bilibili.com/video/av30326868/?p=11)
 - **学习笔记**：[GRU和NMT的进阶](http://www.hankcs.com/nlp/cs224n-gru-nmt.html)
 
@@ -161,12 +161,12 @@
 
 ### Week7
 1.  语音识别的end-to-end模型
-- **课件:** lecture12
+- **课件:** [lecture12](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture12.pdf)
 - [观看视频](https://www.bilibili.com/video/av30326868/?p=12)
 - **学习笔记**： [语音识别的end-to-end模型](http://www.hankcs.com/nlp/cs224n-end-to-end-asr.html)
 
 2. 卷积神经网络:CNN
-- **课件:** lecture13
+- **课件:** [lecture13](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture13.pdf)
 - [观看视频](https://www.bilibili.com/video/av30326868/?p=13)
 - **学习笔记**：[卷积神经网络](http://www.hankcs.com/nlp/cs224n-convolutional-neural-networks.html)
 
@@ -179,12 +179,12 @@
 
 ### Week8
 1.  Tree RNN与短语句法分析
-- **课件:** lecture14
+- **课件:** [lecture14](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture14.pdf)
 - [观看视频](https://www.bilibili.com/video/av30326868/?p=14)
 - ****学习笔记****： [Tree RNN与短语句法分析](http://www.hankcs.com/nlp/cs224n-tree-recursive-neural-networks-and-constituency-parsing.html)
 
 2. 指代消解
-- **课件:** lecture15
+- **课件:** [lecture15](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture15.pdf)
 - [观看视频](https://www.bilibili.com/video/av30326868/?p=15)
 - ****学习笔记****：[指代消解](http://www.hankcs.com/nlp/cs224n-coreference-resolution.html)
 
@@ -196,12 +196,12 @@
 
 ### Week9
 1.   DMN与问答系统
-- **课件:** lecture16
+- **课件:** [lecture16](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture16.pdf)
 - [观看视频](https://www.bilibili.com/video/av30326868/?p=16)
 - ****学习笔记****： [DMN与问答系统](http://www.hankcs.com/nlp/cs224n-dmn-question-answering.html)
 
 2.  NLP存在的问题与未来的架构
-- **课件:** [lecture17]
+- **课件:** [lecture17](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture17.pdf)
 - [观看视频](https://www.bilibili.com/video/av30326868/?p=17)
 - ****学习笔记****：[指代消解](http://www.hankcs.com/nlp/cs224n-nlp-issues-architectures.html)
 
@@ -212,7 +212,7 @@
 
 ### Week10 
 1. 挑战深度学习与自然语言处理的极限
-- **课件:** lecture18
+- **课件:** [lecture18](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture18.pdf)
 - [观看视频](https://www.bilibili.com/video/av30326868/?p=18)
 - ****学习笔记****： [挑战深度学习与自然语言处理的极限](http://www.hankcs.com/nlp/cs224n-tackling-the-limits-of-dl-for-nlp.html)
 
