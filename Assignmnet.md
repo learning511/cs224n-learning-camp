@@ -5,7 +5,7 @@
 * Python 2.7
 * TensorFlow r1.2
 
-## [作业第一部分]()
+## [作业第一部分(下载用浏览器打开)](https://github.com/learning511/cs224n-learning-camp/blob/master/assigments/CS224n_%20assignment1.html)
 ## Assignment #1.1
 1.1 Softmax 分类算法
 ## Assignment #1.2
@@ -19,7 +19,7 @@
 ![q4_reg_v_acc](http://wx1.sinaimg.cn/large/006Fmjmcly1fgydrwwnsbj30m80godgn.jpg)
 ![q4_dev_conf](http://wx1.sinaimg.cn/large/006Fmjmcly1fgydrmd0wtj30m80gojrx.jpg)
 
-## [作业第二部分]()
+## [作业第二部分(下载用浏览器打开)](https://github.com/learning511/cs224n-learning-camp/blob/master/assigments/CS224n_%20assignment2.html)
 1. Tensorflow Softmax 基于Tensorflow的softmax分类
 2. Neural Transition-Based Dependency Parsing 基于神经挽留过的依赖解析  
 运行效果：  
@@ -40,7 +40,7 @@ Done!
 运行效果：
 ![unrolled_rnn](http://wx3.sinaimg.cn/large/006Fmjmcly1fgzqfm9p4xj30p60bbdgu.jpg)
 
-## [作业第三部分]()
+## [作业第三部分(下载用浏览器打开)](https://github.com/learning511/cs224n-learning-camp/blob/master/assigments/CS224n_%20assignment3.html)
 ## Assignment #3
 1. window into named entity recognition（NER）基于窗口模式的名称识别 
 运行效果：  
@@ -122,18 +122,10 @@ INFO:Entity level P/R/F1: 0.86/0.85/0.85
 ```
 
 4. Easter Egg Hunt! 彩蛋一枚！！
-    - Run `python q3_gru.py dynamics` to unfold your candy eggs
+    - Run `python q3_gru.py dynamics` to unfold your candy eggs  
 
 
 
-## 参考结果 References
 
-CS224n official website
-
-* http://web.stanford.edu/class/cs224n/index.html
-
-Many code snippets come from
-
-* https://github.com/rymc9384/DeepNLP_CS224N
-* https://github.com/gxlzj/cs224n-hw3​
+## 作业参考结果 [References](https://github.com/learning511/cs224n-learning-camp/tree/master/assigments/solution)
 
