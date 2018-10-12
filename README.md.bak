@@ -38,7 +38,7 @@
 - [概率论](http://web.stanford.edu/class/cs224n/readings/cs229-prob.pdf)  
 - [凸函数优化](http://web.stanford.edu/class/cs224n/readings/cs229-cvxopt.pdf)  
 - [随机梯度下降算法](http://cs231n.github.io/optimization-1/)  
-**中文资料：**  
+**斯坦福资料：**    
 - [机器学习中的数学基本知识](https://www.cnblogs.com/steven-yang/p/6348112.html)  
 - [统计学习方法](http://vdisk.weibo.com/s/vfFpMc1YgPOr)  
 **大学课本**  
@@ -46,7 +46,7 @@
 ### 编程工具 
 **斯坦福资料：**  
 - [Python复习](http://web.stanford.edu/class/cs224n/lectures/python-review.pdf)  
-**中文资料：**   
+**斯坦福资料：**  
 - [莫烦python教程](https://morvanzhou.github.io/tutorials/python-basic/basic/)  
 - [廖雪峰python3教程](https://www.liaoxuefeng.com/article/001432619295115c918a094d8954bd493037b03d27bf9a9000)  
 
@@ -74,7 +74,7 @@
 - **论文笔记**：[Sentence Embedding](http://www.hankcs.com/nlp/cs224n-sentence-embeddings.html)
 4. 作业：Assignment 1.1-1.2  
 - 1.1 Softmax 算法
-- 1.2 Neural Network Basics 基础实现
+- 1.2 Neural Network Basics 神经网络基础实现
 ### Week2
 1.  高级词向量表示：word2vec 2
 - **课件:** [lecture03](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture3.pdf)
@@ -157,7 +157,7 @@
 - **课件:** [paper]
 -  **论文笔记：**[谷歌的多语种神经网络翻译系统](http://www.hankcs.com/nlp/cs224n-google-nmt.html)
 4. 作业：Assignment 3.1
-- 3.1  A window into NER
+- 3.1  A window into named entity recognition（NER）基于窗口模式的名称识别
 
 ### Week7
 1.  语音识别的end-to-end模型
@@ -174,7 +174,7 @@
 - **课件:** [paper]
 -  **论文笔记：**[读唇术](http://www.hankcs.com/nlp/cs224n-lip-reading.html)
 4. 作业：Assignment 3.2
-- 3.2  Recurrent neural nets for NER
+- 3.2  Recurrent neural nets for named entity recognition(NER) 基于RNN的名称识别
 
 
 ### Week8
@@ -192,8 +192,7 @@
 - **课件:** [paper]
 -  **论文笔记：**[Character-Aware神经网络语言模型](http://www.hankcs.com/nlp/cs224n-character-aware-neural-language-models.html)
 4. **作业**：Assignment 3.3
-- 3.3  Grooving with GRUs
-
+- 3.3  Grooving with GRUs(（NER）基于GRU的名称识别  
 ### Week9
 1.   DMN与问答系统
 - **课件:** [lecture16](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture16.pdf)

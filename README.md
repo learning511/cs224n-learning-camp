@@ -33,20 +33,20 @@
 ## 知识工具
 为了让大家逐渐适应英文阅读，复习材料我们有中英两个版本，**但是推荐大家读英文**
 ### 数学工具
-**斯坦福资料：**  
+#### 斯坦福资料：
 - [线性代数](http://web.stanford.edu/class/cs224n/readings/cs229-linalg.pdf)  
 - [概率论](http://web.stanford.edu/class/cs224n/readings/cs229-prob.pdf)  
 - [凸函数优化](http://web.stanford.edu/class/cs224n/readings/cs229-cvxopt.pdf)  
 - [随机梯度下降算法](http://cs231n.github.io/optimization-1/)  
-**斯坦福资料：**    
+#### 中文资料：    
 - [机器学习中的数学基本知识](https://www.cnblogs.com/steven-yang/p/6348112.html)  
 - [统计学习方法](http://vdisk.weibo.com/s/vfFpMc1YgPOr)  
-**大学课本**  
+**大学数学课本（从故纸堆里翻出来^_^）**  
 
 ### 编程工具 
-**斯坦福资料：**  
+#### 斯坦福资料： 
 - [Python复习](http://web.stanford.edu/class/cs224n/lectures/python-review.pdf)  
-**斯坦福资料：**  
+#### 中文资料：
 - [莫烦python教程](https://morvanzhou.github.io/tutorials/python-basic/basic/)  
 - [廖雪峰python3教程](https://www.liaoxuefeng.com/article/001432619295115c918a094d8954bd493037b03d27bf9a9000)  
 
