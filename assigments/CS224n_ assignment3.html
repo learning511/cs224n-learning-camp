@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)http://web.stanford.edu/class/cs224n/assignment3/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CS224n: Natural Language Processing with Deep Learning</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Course materials and notes for Stanford class CS224n: Natural Language Processing with Deep Learning.">
+    <link rel="canonical" href="http://web.stanford.edu/class/cs224n/assignment3/index_files/index.html">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./CS224n_ assignment3_files/main.css">
+
+    <!-- Google fonts -->
+    <link href="./CS224n_ assignment3_files/css" rel="stylesheet" type="text/css">
+
+<style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Hover_Arrow {position: absolute; width: 15px; height: 11px; cursor: pointer}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">.MathJax_Preview .MJXc-math {color: inherit!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXc-script {font-size: .8em}
+.MJXc-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXc-bold {font-weight: bold}
+.MJXc-italic {font-style: italic}
+.MJXc-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXc-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXc-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXc-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXc-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXc-largeop {font-size: 150%}
+.MJXc-largeop.MJXc-int {vertical-align: -.2em}
+.MJXc-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXc-display {display: block; text-align: center; margin: 1em 0}
+.MJXc-math span {display: inline-block}
+.MJXc-box {display: block!important; text-align: center}
+.MJXc-box:after {content: " "}
+.MJXc-rule {display: block!important; margin-top: .1em}
+.MJXc-char {display: block!important}
+.MJXc-mo {margin: 0 .15em}
+.MJXc-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXc-denom {display: inline-table!important; width: 100%}
+.MJXc-denom > * {display: table-row!important}
+.MJXc-surd {vertical-align: top}
+.MJXc-surd > * {display: block!important}
+.MJXc-script-box > *  {display: table!important; height: 50%}
+.MJXc-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXc-script-box > *:last-child > * {vertical-align: bottom}
+.MJXc-script-box > * > * > * {display: block!important}
+.MJXc-mphantom {visibility: hidden}
+.MJXc-munderover {display: inline-table!important}
+.MJXc-over {display: inline-block!important; text-align: center}
+.MJXc-over > * {display: block!important}
+.MJXc-munderover > * {display: table-row!important}
+.MJXc-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXc-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXc-mtr {display: table-row!important}
+.MJXc-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXc-mtr > .MJXc-mtd:first-child {padding-left: 0}
+.MJXc-mtr:first-child > .MJXc-mtd {padding-top: 0}
+.MJXc-mlabeledtr {display: table-row!important}
+.MJXc-mlabeledtr > .MJXc-mtd:first-child {padding-left: 0}
+.MJXc-mlabeledtr:first-child > .MJXc-mtd {padding-top: 0}
+.MJXc-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXc-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXc-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXc-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXc-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXc-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXc-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXc-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXc-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXc-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXc-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_CHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+
+   <body><div id="MathJax_Message" style="display: none;"></div>
+
+    <header class="site-header">
+
+  <div class="wrap title-wrap">
+    <a class="site-title" href="https://cs224n.stanford.edu/">CS224n: Natural Language Processing with Deep Learning</a>
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrap">
+      <div class="post">
+
+  <header class="post-header">
+    <h1>Assignment #3: Named Entity Recognition and Recurrent Neural Networks</h1>
+  </header>
+
+  <article class="post-content">
+
+
+<p><b>Last updated: 2/14 (Tue) 2 PM PST.<br>
+Due Date: 2/27 (Tue) 11:59 PM PST.<br>
+Hard deadline: 3/2 (Fri) 11:59 PM PST with 3 late days. Assignments turned in past this date will be penalized (see the <a href="http://web.stanford.edu/class/cs224n/grading.html">grading page</a>).
+</b></p>
+
+<p>In this assignment you will learn about named entity recognition and implement a baseline window-based model, as well as a recurrent neural network model. The assignment also covers gated recurrent units, applying them to simple 1D sequences and the named entity recognition.
+</p>
+
+<h2>Setup</h2>
+
+<p><i>Note: Please be sure you have Python 2.7.x installed on your system. The following instructions should work on Mac or Linux. If you have any trouble getting set up, please come to office hours and the TAs will be happy to help.</i></p>
+
+<p><b>Get the code</b>: <a href="http://web.stanford.edu/class/cs224n/assignment3/assignment3.zip">Download the starter code here</a> and <a href="http://web.stanford.edu/class/cs224n/assignment3/assignment3.pdf"> the assignment handout here</a>.</p>
+
+<p><b>Python package requirements:</b>
+The core requirements for this assignment are </p>
+
+<ul>
+  <li> tensorflow </li>
+  <li> numpy </li>
+  <li> matplotlib </li>
+</ul>
+
+
+<!--p>The corn clusters don't provide GPU support. If you'd like to use GPUs,
+we recommend using AWS. We've put together a brief <a
+href="../supplementary/aws-tutorial-2.pdf">tutorial</a> with directions on
+how to get started with TensorFlow on AWS. </p-->
+
+
+<h2>Submitting your work</h2>
+
+<p>
+Do not code outside of the "# YOUR CODE HERE" blocks, modify the list of imports, change function names, etc. (tuning parameters is fine). Make sure your code runs before submitting. Crashing due to undefined variables, missing imports, hard-coded dimensions, and bad indentation will lead to significant deductions.
+</p>
+
+<p>For the written component, please upload a PDF file of your solutions to Gradescope. When asked to map question parts to your PDF, please map the parts accordingly as courtesy to your TAs. This is crucial so that we can provide accurate feedback.</p>
+
+<p>Submission instructions are posted on Piazza <a href="https://piazza.com/class/jbzetnr5w6e2ht?cid=991">here</a>.</p>
+
+<!--
+<a name="submitinfo"></a><h2>Submitting your work</h2>
+
+<p>This assignment requires you to submit a number of files, which are listed in the assignment handout under <b>"deliverables"</b> for each section. Please be sure to use the provided code snippets in the notebook to generate these files, and follow the instructions below to submit a .zip file and your writeup PDF.</p>
+
+<h3>Submission Logistics</h3>
+
+<p>There are four steps to submit your assignment, so <b><i>please read the following carefully:</i></b>
+<ol>
+  <li>Copy Part 1.1 code to <a href="part11probing.py"><code>part11probing.py</code></a></li>
+  <li>Run the sanity checker <a href="collectSubmission.py"><code>collectSubmission.py</code></a></li>
+  <li>Upload <code>&lt;your-sunet-id&gt;.zip</code> to <a href="https://stanford.box.com/signup/collablink/d_3519190031/11a9c86060015e">Box</a></li>
+  <li>Upload your writeup PDF to <a href="https://scoryst.com/course/67/submit/">Scoryst</a></li>
+</ol>
+</p>
+
+<p><b>Step 1:</b> In order to evaluate Part 1.1 (Probing Neuron Responses), we ask that you copy-and-paste your code - minus the print statements - for 1.1(a), 1.1(b), and 1.1(c) from the <code>part1-NER.ipynb</code> notebook into the respective functions <code>part_a()</code>, <code>part_b()</code>, and <code>part_c()</code> in the template file <a href="part11probing.py"><code>part11probing.py</code> which you can download here.</a> Put this file in your assignment directory.</p>
+<p>Unless you made significant modifications to the starter code (<i>not recommended</i>), this should only take a couple minutes. You can test your code by running, in the notebook:
+<pre><code>from part11probing import part_a, part_b, part_c
+# clf is your trained WindowMLP model
+part_a(clf, num_to_word)
+part_b(clf, num_to_word, num_to_tag)
+part_c(clf, num_to_word, num_to_tag)</code></pre>
+or alternatively by running <code>python part11probing.py</code> from the command line to test your code on a nonsense model.
+We apologize for any inconvenience this may cause; however, adhering to this will allow us to give credit for this section even if there are bugs in your NER model. (<i>You still need to do this even if you don't have bugs.</i>)
+
+<p><b>Step 2:</b> We've written a sanity checker script that will run a few <i>very basic</i> tests to make sure your output and code are in the correct format. Please note that this script <i>does not</i> verify correctness or guarantee that all output is in the correct format. <i>It only checks for a few cases of malformatted output</i> and <i>does not run gradient checks</i>! The script will also check for all the files you need to submit, and will prepare a .zip file for submission. This script should work on all platforms (Mac, Linux, Windows).</p>
+<p><a href="collectSubmission.py">Download <code>collectSubmission.py</code> here</a>, and put it in your assignment directory. Then run as:
+<pre><code>python collectSubmission.py</code></pre>
+</p>
+<p>The script will warn you if files are missing or tests fail; you may opt to continue and it will still prepare the .zip, but you do so at your own risk.</p>
+
+<p><b>Step 3:</b> Upload <code>&lt;your-sunet-id&gt;.zip</code>, as output by the sanity checker, to <a href="https://stanford.box.com/signup/collablink/d_3519190031/11a9c86060015e">the Box folder for this assignment</a></p>
+<p><b><i>Extra Credit:</i></b> If you implemented the <code>ExtraCreditRNNLM</code> extensions, please upload a separate zip file containing any additional parameter files (i.e. <code>extracredit.U.npy</code>, etc.) necessary to test your model. Name this file <code>&lt;your-sunet-id&gt;-extracredit.zip</code>, and upload it to the same Box folder as the rest of the assignment.</p>
+
+<p><b>Step 4:</b> <a href="https://scoryst.com/course/67/submit/">Upload your writeup PDF to Scoryst</a>, under Assignment 2. Unfortunately, Scoryst is 1-indexed and fairly inflexible about numbering, so please note the following:
+<ul>
+  <li>Part 0 (XOR) is "Question 1"</li>
+  <li>Part 1 (NER) is "Question 2"</li>
+  <li>Part 2 (RNNLM) is "Question 3"</li>
+  <li>For questions (such as 1(d) a.k.a. "Question 2 part 4") with both programming <i>and</i> written components, point Scoryst to the corresponding part of your writeup. We'll grade your code and include it in these parts.</li>
+  <li>For programming-only questions (such as 0(c) a.k.a "Question 1 part 3"), just point Scoryst to a dummy location; we'll enter the code grade as in Assignment 1.</li>
+  <li>Part 2 (RNNLM): "Question 3", parts 8 and 9 are for Extra Credit: unigram filling and RNNLM optimizations/extensions, respectively. If you did these, please point these questions to the relevant section of the report.</li>
+</ul>
+Basically, if you submit everything <b><i>in the order it appears</i></b> you should be OK.</p> -->
+
+
+<h2>Assignment Overview (Tasks)</h2>
+
+<p>There will be three parts to this assignment. Question 3(d) depends on 2(c), but otherwise the rest of the assignment can be done independently.  We recommend reading the assignment carefully and starting early as some parts may take significant time.</p>
+
+<h3>Q1: A window into NER (30 points)</h3>
+
+<h3>Q2: Recurrent neural nets for NER (40 points)</h3>
+
+<h3>Q3: Grooving with GRUs (30 points)</h3>
+
+</article></div>
+    <!-- mathjax -->
+    <script type="text/javascript" src="./CS224n_ assignment3_files/MathJax.js"></script>
+
+<!--
+<p>We also have made a video going over the assignment [<a href=https://drive.google.com/file/d/0B5Y5rz_RUKRmemFkX3UyZjZQaFk/view>link</a>] (not required viewing, everything is in the handout or code documentation). </p>
+-->
+
+<!--iframe src="https://drive.google.com/file/d/0B5Y5rz_RUKRmemFkX3UyZjZQaFk/preview" width="640" height="480"></iframe>
+
+<div id="feedly-mini" title="feedly Mini tookit"></div></body></html>
+--></div></div></body></html>

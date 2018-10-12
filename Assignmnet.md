@@ -1,36 +1,28 @@
 # CS224n Assignments   
-CS224n: Natural Language Processing with Deep Learning Assignments Winter, 2017
+# 深度学习之自然语言处理斯坦福大学CS224n课程集训营作业
 
-#### Requirements
+#### 环境要求 Requirements
 * Python 2.7
 * TensorFlow r1.2
 
-
+## [作业第一部分]()
 ## Assignment #1.1
-
-1.1 Softmax
-
+1.1 Softmax 分类算法
 ## Assignment #1.2
-
-1.2 Neural Network Basics
-
+1.2 Neural Network Basics 神经网络基础实现
 ## Assignment #1.3
-
-1.3 word2vec
+1.3 word2vec 词向量
 ![q3_word_vectors](http://wx2.sinaimg.cn/large/006Fmjmcly1fgydqi2vq4j30m80godgi.jpg)
 
 ## Assignment #1.4
-4. Sentiment Analysis
+4. Sentiment Analysis 情绪分析
 ![q4_reg_v_acc](http://wx1.sinaimg.cn/large/006Fmjmcly1fgydrwwnsbj30m80godgn.jpg)
 ![q4_dev_conf](http://wx1.sinaimg.cn/large/006Fmjmcly1fgydrmd0wtj30m80gojrx.jpg)
 
-
-
-
-
-1. Tensorflow Softmax
-2. Neural Transition-Based Dependency Parsing
-
+## [作业第二部分]()
+1. Tensorflow Softmax 基于Tensorflow的softmax分类
+2. Neural Transition-Based Dependency Parsing 基于神经挽留过的依赖解析  
+运行效果：  
 ```
 924/924 [==============================] - 49s - train loss: 0.0631    
 Evaluating on dev set - dev UAS: 88.54
@@ -44,14 +36,15 @@ Writing predictions
 Done!
 ```
 
-3. Recurrent Neural Networks: Language Modeling
+3. Recurrent Neural Networks: Language Modeling 基于RNN的语言模型  
+运行效果：
 ![unrolled_rnn](http://wx3.sinaimg.cn/large/006Fmjmcly1fgzqfm9p4xj30p60bbdgu.jpg)
 
+## [作业第三部分]()
 ## Assignment #3
-
-1. A window into NER
-
-```
+1. window into named entity recognition（NER）基于窗口模式的名称识别 
+运行效果：  
+ ```
 DEBUG:Token-level confusion matrix:
 go\gu   PER     ORG     LOC     MISC    O    
 PER     2968    26      84      16      55   
@@ -71,9 +64,10 @@ macro   0.99    0.91    0.89    0.90
 not-O   0.99    0.89    0.87    0.88 
 INFO:Entity level P/R/F1: 0.82/0.85/0.84
 ```
+2. Recurrent neural nets for named entity recognition(NER) 基于RNN的名称识别  
+运行效果：  
 
-2. Recurrent neural nets for NER
-
+3. Grooving with GRUs(（NER）基于GRU的名称识别 
 ```
 DEBUG:Token-level confusion matrix:
 go\gu   PER     ORG     LOC     MISC    O    
@@ -93,9 +87,11 @@ micro   0.99    0.98    0.98    0.98
 macro   0.99    0.92    0.89    0.91 
 not-O   0.99    0.90    0.88    0.89 
 INFO:Entity level P/R/F1: 0.85/0.86/0.85
-```
+```  
 
-3. Grooving with GRUs
+
+3. Grooving with GRUs(（NER）基于GRU的名称识别：  
+运行效果：  
 
 ![q3-noclip-rnn](http://wx2.sinaimg.cn/large/006Fmjmcly1fh6mpycoobj30hs0dcmxt.jpg)
 ![q3-clip-rnn](http://wx1.sinaimg.cn/large/006Fmjmcly1fh6mq3kxzqj30hs0dcdgh.jpg)
@@ -125,11 +121,12 @@ not-O	0.99 	0.91 	0.88 	0.89
 INFO:Entity level P/R/F1: 0.86/0.85/0.85
 ```
 
-4. Easter Egg Hunt!
+4. Easter Egg Hunt! 彩蛋一枚！！
     - Run `python q3_gru.py dynamics` to unfold your candy eggs
 
 
-## References
+
+## 参考结果 References
 
 CS224n official website
 
