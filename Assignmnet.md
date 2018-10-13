@@ -66,8 +66,6 @@ INFO:Entity level P/R/F1: 0.82/0.85/0.84
 ```
 2. Recurrent neural nets for named entity recognition(NER) 基于RNN的名称识别  
 运行效果：  
-
-3. Grooving with GRUs(（NER）基于GRU的名称识别 
 ```
 DEBUG:Token-level confusion matrix:
 go\gu   PER     ORG     LOC     MISC    O    
