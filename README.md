@@ -150,7 +150,7 @@
 1.  机器翻译、序列到序列、注意力模型：Machine Translation, Seq2Seq and Attention 
 - **课件:** [lecture10](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture10.pdf)
 - [观看视频](https://www.bilibili.com/video/av30326868/?p=10)
-- **学习笔记**： [机器翻译、序列到序列、注意力模型]http://www.hankcs.com/nlp/cs224n-9-nmt-models-with-attention.html)
+- **学习笔记**： [机器翻译、序列到序列、注意力模型](http://www.hankcs.com/nlp/cs224n-9-nmt-models-with-attention.html)
 
 2. GRU和NMT的进阶
 - **课件:** [lecture11](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture11.pdf)
@@ -159,7 +159,7 @@
 
 3. 论文导读：谷歌的多语种神经网络翻译系统
 - **论文原文:** [paper](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/Google%E2%80%99s%20Multilingual%20Neural%20Machine%20Translation%20System_%20Enabling%20Zero-Shot%20Translation.pdf)
-- **论文分析:** [highlight](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/highlight/cs224n-2017-lecture8-highlight.pdf)
+- **论文分析:** [highlight](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/highlight/cs224n-2017-lecture8-highlight.pdf)  
 - **论文笔记：**[谷歌的多语种神经网络翻译系统](http://www.hankcs.com/nlp/cs224n-google-nmt.html)
 4. 作业：Assignment 3.1
 - 3.1  A window into named entity recognition（NER）基于窗口模式的名称识别
@@ -213,7 +213,7 @@
 
 3. **论文导读**：神经网络自动代码摘要
 - **论文原文:** [paper](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/Summarizing%20Source%20Code%20using%20a%20Neural%20Attention%20Model.pdf)
-- **论文分析:--------** [highlight]()
+- **论文分析:--------** [highlight]()  
 - **论文笔记：**[神经网络自动代码摘要](http://www.hankcs.com/nlp/cs224n-summarizing-source-code.html)
 6. 比赛（待定）
 
@@ -224,19 +224,19 @@
 - ****学习笔记****： [挑战深度学习与自然语言处理的极限](http://www.hankcs.com/nlp/cs224n-tackling-the-limits-of-dl-for-nlp.html)
 
 2. **论文导读**：neural-turing-machines
-- **论文原文:** [paper](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/Neural%20Turing%20Machines.pdf)
+- **论文原文:** [paper](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/Neural%20Turing%20Machines.pdf)  
 - **论文分析:** [highlight](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/highlight/cs224n-2017-lecture14-highlight.pdf)
 - **论文笔记：**[neural-turing-machines](http://www.hankcs.com/nlp/cs224n-neural-turing-machines.html)
 
 3 **论文导读**： 深度强化学习用于对话生成
 - **论文原文:** [paper](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/Deep%20Reinforcement%20Learning%20for%20Dialogue%20Generation.pdf)
-- **论文分析:** [highlight](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/highlight/cs224n-2017-lecture11-highlight.pdf)
+- **论文分析:** [highlight](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/highlight/cs224n-2017-lecture11-highlight.pdf)  
 - **论文笔记：**[深度强化学习用于对话生成](http://www.hankcs.com/nlp/cs224n-deep-reinforcement-learning-for-dialogue-generation.html)
 
  ### Week11
- 1. **论文导读**：图像对话
+ 1. **论文导读**：图像对话------------------
 - **论文原文:** [paper]()
-- **论文分析:** [highlight]()
+- **论文分析:** [highlight]()  
 - **论文笔记：**[图像对话](http://www.hankcs.com/nlp/cs224n-visual-dialog.html)
  2. 比赛复盘  
  3. 期末总结  
