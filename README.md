@@ -213,9 +213,10 @@
 
 3. **论文导读**：神经网络自动代码摘要
 - **论文原文:** [paper](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/Summarizing%20Source%20Code%20using%20a%20Neural%20Attention%20Model.pdf)
-- **论文分析:--------** [highlight]()  
+- **论文分析:------------------** [highlight]()  
 - **论文笔记：**[神经网络自动代码摘要](http://www.hankcs.com/nlp/cs224n-summarizing-source-code.html)
-6. 比赛（待定）
+4. **期末大作业：**  
+全球AI挑战赛[观点型问题阅读理解数据集2018](https://challenger.ai/dataset/oqmrcd2018)
 
 ### Week10 
 1. 挑战深度学习与自然语言处理的极限
