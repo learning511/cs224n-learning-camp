@@ -1,4 +1,3 @@
-# CS224n Assignments   
 # 深度学习之自然语言处理斯坦福大学CS224n课程集训营作业
 
 #### 环境要求 Requirements
@@ -49,7 +48,7 @@ Done!
 ## [作业第三部分(下载用浏览器打开)](https://github.com/learning511/cs224n-learning-camp/blob/master/assigments/CS224n_%20assignment3.html)   
 本部分作业主要是一些NLP典型问题的处理  
 ## Assignment #3
-1. window into named entity recognition（NER）基于窗口模式的名称识别 
+1. window into named entity recognition（NER）基于窗口模式的名称识别  
 运行效果：  
  ```
 DEBUG:Token-level confusion matrix:
