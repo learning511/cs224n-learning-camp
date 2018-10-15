@@ -211,11 +211,11 @@
 - [观看视频](https://www.bilibili.com/video/av30326868/?p=17)
 - ****学习笔记****：[指代消解](http://www.hankcs.com/nlp/cs224n-nlp-issues-architectures.html)
 
-3. **论文导读**：神经网络自动代码摘要
-- **论文原文:** [paper](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/Summarizing%20Source%20Code%20using%20a%20Neural%20Attention%20Model.pdf)
-- **论文分析:------------------** [highlight]()  
-- **论文笔记：**[神经网络自动代码摘要](http://www.hankcs.com/nlp/cs224n-summarizing-source-code.html)
-4. **期末大作业：**  
+3. **论文导读**：学习代码中的语义
+- **论文原文:** [paper](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/Learning%20Program%20Embeddings%20to%20Propagate%20Feedback%20on%20Student%20Code.pdf)
+- **论文分析:** [highlight](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/highlight/cs224n-2017-lecture12-highlight.pdf)  
+- **论文笔记：**[学习代码中的语义](http://www.hankcs.com/nlp/cs224n-program-embeddings.html)
+4. **课程大作业：**  
 全球AI挑战赛[观点型问题阅读理解数据集2018](https://challenger.ai/dataset/oqmrcd2018)
 
 ### Week10 
@@ -235,9 +235,9 @@
 - **论文笔记：**[深度强化学习用于对话生成](http://www.hankcs.com/nlp/cs224n-deep-reinforcement-learning-for-dialogue-generation.html)
 
  ### Week11
- 1. **论文导读**：图像对话------------------
-- **论文原文:** [paper]()
-- **论文分析:** [highlight]()  
+ 1. **论文导读**：图像对话
+- **论文原文:** [paper](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/Visual%20Dialog.pdf)
+- **论文分析:** [highlight](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/highlight/cs224n-2017-lecture5-highlight.pdf)  
 - **论文笔记：**[图像对话](http://www.hankcs.com/nlp/cs224n-visual-dialog.html)
  2. 比赛复盘  
  3. 期末总结  
