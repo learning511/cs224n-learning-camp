@@ -72,7 +72,7 @@
 - **论文原文:** [paper](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/A%20Simple%20but%20Tough-to-beat%20Baseline%20for%20Sentence%20Embeddings.pdf)
 - **论文分析:** [highlight](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/highlight/cs224n-2017-lecture1-highlight.pdf)  
 - **论文笔记**：[Sentence Embedding](http://www.hankcs.com/nlp/cs224n-sentence-embeddings.html)
-4. 作业：Assignment 1.1-1.2  
+4. 作业：[Assignment 1.1-1.2](https://github.com/learning511/cs224n-learning-camp/blob/master/Assignmnet.md)  
 - 1.1 Softmax 算法
 - 1.2 Neural Network Basics 神经网络基础实现
 ### Week2
@@ -90,7 +90,7 @@
 - **论文原文:** [paper](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/Linear%20Algebraic%20Structure%20of%20Word%20Senses%2C%20with%20Applications%20to%20Polysemy.pdf)
 - **论文分析:** [highlight](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/highlight/cs224n-2017-lecture2-highlight.pdf)  
 - **论文笔记：**[词语义项的线性代数结构与词义消歧](http://www.hankcs.com/nlp/cs224n-word-senses.html)
-4. 作业：Assignment 1.3-1.4 
+4. 作业：[Assignment 1.3-1.4](https://github.com/learning511/cs224n-learning-camp/blob/master/Assignmnet.md)  
 - 1.3 word2vec 实现
 - 1.4 Sentiment Analysis 情绪分析  
 ### Week3
@@ -108,7 +108,7 @@
 - **论文原文:** [paper](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/Bag%20of%20Tricks%20for%20Efficient%20Text%20Classification.pdf)
 - **论文分析:** [highlight](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/highlight/cs224n-2017-lecture3-highlight.pdf)
 - **论文笔记：**[高效文本分类](http://www.hankcs.com/nlp/cs224n-bag-of-tricks-for-efficient-text-classification.html)
-4. **作业** Assignment 2.2
+4. **作业** [Assignment 2.2](https://github.com/learning511/cs224n-learning-camp/blob/master/Assignmnet.md) 
 - 2.2 Neural Transition-Based Dependency Parsing 基于神经网络的依赖分析
 
 ### Week4
@@ -126,7 +126,7 @@
 - **论文原文:** [paper](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/Impoving%20distributional%20similarly%20with%20lessons%20learned%20from%20word%20embeddings.pdf)
 - **论文分析:** [highlight](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/highlight/cs224n-2017-lecture4-highlight.pdf)
 - **论文笔记：**[词嵌入对传统方法的启发](http://www.hankcs.com/nlp/cs224n-improve-word-embeddings.html)
-4. 作业：Assignment 2.1  
+4. 作业：[Assignment 2.1](https://github.com/learning511/cs224n-learning-camp/blob/master/Assignmnet.md)  
 - 2.1 Tensorflow Softmax 基于TensorFlow的softmax分类
 
 ### Week5
@@ -143,7 +143,7 @@
 - **论文原文:** [paper](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/Structured%20Training%20for%20Neural%20Network%20Transition-Based%20Parsing.pdf)
 - **论文分析:** [highlight](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/highlight/cs224n-2017-lecture6-highlight.pdf)
 - **论文笔记：**[基于神经网络句法分析的结构化训练](http://www.hankcs.com/nlp/cs224n-syntaxnet.html)
-4. 作业：Assignment 2.3
+4. 作业：[Assignment 2.3](https://github.com/learning511/cs224n-learning-camp/blob/master/Assignmnet.md) 
 - 2.3 Recurrent Neural Networks: Language Modeling 循环神经网络语言建模
 
 ### Week6
@@ -161,7 +161,7 @@
 - **论文原文:** [paper](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/Google%E2%80%99s%20Multilingual%20Neural%20Machine%20Translation%20System_%20Enabling%20Zero-Shot%20Translation.pdf)
 - **论文分析:** [highlight](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/highlight/cs224n-2017-lecture8-highlight.pdf)  
 - **论文笔记：**[谷歌的多语种神经网络翻译系统](http://www.hankcs.com/nlp/cs224n-google-nmt.html)
-4. 作业：Assignment 3.1
+4. 作业：[Assignment 3.1](https://github.com/learning511/cs224n-learning-camp/blob/master/Assignmnet.md) 
 - 3.1  A window into named entity recognition（NER）基于窗口模式的名称识别
 
 ### Week7
@@ -179,7 +179,7 @@
 - **论文原文:** [paper](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/Lip%20Reading%20Sentences%20in%20the%20Wild.pdf)
 - **论文分析:** [highlight](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/highlight/cs224n-2017-lecture9-highlight.pdf)
 - **论文笔记：**[读唇术](http://www.hankcs.com/nlp/cs224n-lip-reading.html)
-4. 作业：Assignment 3.2
+4. 作业：[Assignment 3.2](https://github.com/learning511/cs224n-learning-camp/blob/master/Assignmnet.md) 
 - 3.2  Recurrent neural nets for named entity recognition(NER) 基于RNN的名称识别
 
 
@@ -198,7 +198,7 @@
 - **论文原文:** [paper](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/Character-Aware%20Neural%20Language%20Models.pdf)
 - **论文分析:** [highlight](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/highlight/cs224n-2017-lecture10-highlight.pdf)
 - **论文笔记：**[Character-Aware神经网络语言模型](http://www.hankcs.com/nlp/cs224n-character-aware-neural-language-models.html)
-4. **作业**：Assignment 3.3
+4. **作业**：[Assignment 3.3](https://github.com/learning511/cs224n-learning-camp/blob/master/Assignmnet.md) 
 - 3.3  Grooving with GRUs(（NER）基于GRU的名称识别  
 ### Week9
 1.   DMN与问答系统
@@ -240,4 +240,4 @@
 - **论文分析:** [highlight](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/highlight/cs224n-2017-lecture5-highlight.pdf)  
 - **论文笔记：**[图像对话](http://www.hankcs.com/nlp/cs224n-visual-dialog.html)
  2. 比赛复盘  
- 3. 期末总结  
+ 3. 课程总结 
