@@ -45,6 +45,7 @@
 ### 编程工具 
 #### 斯坦福资料： 
 - [Python复习](http://web.stanford.edu/class/cs224n/lectures/python-review.pdf)  
+- [TensorFlow教程](https://github.com/open-source-for-science/TensorFlow-Course#why-use-tensorflow)  
 #### 中文资料：
 - [廖雪峰python3教程](https://www.liaoxuefeng.com/article/001432619295115c918a094d8954bd493037b03d27bf9a9000)  
 - [莫烦TensorFlow教程](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/)
