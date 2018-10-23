@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+from __future__ import print_function
 import random
 import numpy as np
 from utils.treebank import StanfordSentiment
@@ -39,8 +40,8 @@ wordVectors = sgd(
 # Note that normalization is not called here. This is not a bug,
 # normalizing during training loses the notion of length.
 
-print "sanity check: cost at convergence should be around or below 10"
-print "training took %d seconds" % (time.time() - startTime)
+print("sanity check: cost at convergence should be around or below 10")
+print("training took %d seconds" % (time.time() - startTime))
 
 # concatenate the input and output word vectors
 wordVectors = np.concatenate(

@@ -1,3 +1,4 @@
+from __future__ import print_function
 import sys
 import time
 import numpy as np
@@ -52,7 +53,7 @@ def test_all_close(name, actual, expected):
     if np.amax(np.fabs(actual - expected)) > 1e-6:
         raise ValueError("{:} failed, expected {:} but value is {:}".format(name, expected, actual))
     else:
-        print name, "passed!"
+        print(name, "passed!")
 
 
 def logged_loop(iterable, n=None):

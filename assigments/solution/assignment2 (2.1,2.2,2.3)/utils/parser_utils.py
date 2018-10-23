@@ -1,6 +1,7 @@
 """Utilities for training the dependency parser.
 You do not need to read/understand this code
 """
+from __future__ import print_function
 
 import time
 import os
@@ -340,7 +341,7 @@ def minibatches(data, batch_size):
 def load_and_preprocess_data(reduced=True):
     config = Config()
 
-    print "Loading data...",
+    print("Loading data...", end=' ')
     start = time.time()
     train_set = read_conll(os.path.join(config.data_path, config.train_file),
                            lowercase=config.lowercase)
@@ -352,14 +353,14 @@ def load_and_preprocess_data(reduced=True):
         train_set = train_set[:1000]
         dev_set = dev_set[:500]
         test_set = test_set[:500]
-    print "took {:.2f} seconds".format(time.time() - start)
+    print("took {:.2f} seconds".format(time.time() - start))
 
-    print "Building parser...",
+    print("Building parser...", end=' ')
     start = time.time()
     parser = Parser(train_set)
-    print "took {:.2f} seconds".format(time.time() - start)
+    print("took {:.2f} seconds".format(time.time() - start))
 
-    print "Loading pretrained embeddings...",
+    print("Loading pretrained embeddings...", end=' ')
     start = time.time()
     word_vectors = {}
     for line in open(config.embedding_file).readlines():
@@ -373,16 +374,16 @@ def load_and_preprocess_data(reduced=True):
             embeddings_matrix[i] = word_vectors[token]
         elif token.lower() in word_vectors:
             embeddings_matrix[i] = word_vectors[token.lower()]
-    print "took {:.2f} seconds".format(time.time() - start)
+    print("took {:.2f} seconds".format(time.time() - start))
 
-    print "Vectorizing data...",
+    print("Vectorizing data...", end=' ')
     start = time.time()
     train_set = parser.vectorize(train_set)
     dev_set = parser.vectorize(dev_set)
     test_set = parser.vectorize(test_set)
-    print "took {:.2f} seconds".format(time.time() - start)
+    print("took {:.2f} seconds".format(time.time() - start))
 
-    print "Preprocessing training data..."
+    print("Preprocessing training data...")
     train_examples = parser.create_instances(train_set)
 
     return parser, embeddings_matrix, train_examples, dev_set, test_set,

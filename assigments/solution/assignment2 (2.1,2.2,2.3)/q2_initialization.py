@@ -1,3 +1,4 @@
+from __future__ import print_function
 import numpy as np
 import tensorflow as tf
 
@@ -36,7 +37,7 @@ def xavier_weight_init():
 def test_initialization_basic():
     """Some simple tests for the initialization.
     """
-    print "Running basic tests..."
+    print("Running basic tests...")
     xavier_initializer = xavier_weight_init()
     shape = (1,)
     xavier_mat = xavier_initializer(shape)
@@ -45,7 +46,7 @@ def test_initialization_basic():
     shape = (1, 2, 3)
     xavier_mat = xavier_initializer(shape)
     assert xavier_mat.get_shape() == shape
-    print "Basic (non-exhaustive) Xavier initialization tests pass"
+    print("Basic (non-exhaustive) Xavier initialization tests pass")
 
 
 if __name__ == "__main__":
