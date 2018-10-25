@@ -8,7 +8,6 @@
     [Docker环境配置](https://github.com/ufoym/deepo)  
     [本地环境配置](https://github.com/learning511/cs224n-learning-camp/blob/master/environment.md)
 
-
 #### 重要🔥🔥一些的资源：
 1. [深度学习斯坦福教程](http://deeplearning.stanford.edu/wiki/index.php/UFLDL%E6%95%99%E7%A8%8B)
 2. [廖雪峰python3教程](https://www.liaoxuefeng.com/article/001432619295115c918a094d8954bd493037b03d27bf9a9000)
@@ -16,7 +15,8 @@
 4. [莫烦机器学习教程](https://morvanzhou.github.io/tutorials)
 5. [深度学习经典论文](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap.git)
 6. [斯坦福cs229代码(机器学习算法python徒手实现)](https://github.com/nsoojin/coursera-ml-py.git)  
-7. [本人博客](https://blog.csdn.net/dukuku5038/article/details/82253966)
+7. [吴恩达最新学习：machine learning yearning](https://github.com/AcceptedDoge/machine-learning-yearning-cn)  
+8. [本人博客(机器学习基础算法专题)](https://blog.csdn.net/dukuku5038/article/details/82253966)
 
 
 ## 前言
@@ -57,7 +57,17 @@
 - 3部分安排在周日  
 - 4部分作业是本周任何时候空余时间    
 - 周日晚上提交作业运行截图  
-- 周三、周六休息^_^     
+- 周三、周六休息^_^  
+
+#### 作业提交指南：  
+ 训练营的作业自检系统已经正式上线啦！只需将作业发送到训练营公共邮箱即可，知识星球以打卡为主，不用提交作业。以下为注意事项:  
+<0> 课程资料：[链接](https://pan.baidu.com/s/1p1J9kyoNZIwqCRmaX6lvoQ) 密码：zwjr  
+<1> 训练营代码公共邮箱：cs224n@163.com  
+<2> [查询自己成绩:](https://shimo.im/sheet/fUz1SurlKPgAMecw/RIDOC)  
+<3> 将每周作业压缩成zip文件，文件名为“学号+作业编号”，例如："NLP010037-01.zip"  
+<4> 注意不要改变作业中的《方法名》《类名》不然会检测失败！！ 
+ 
+##  教程  
 ### Week1
 1. 自然语言处理和深度学习简介  
 - **课件:** [lecture01](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture1.pdf)
