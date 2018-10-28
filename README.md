@@ -15,7 +15,8 @@
 4. [莫烦机器学习教程](https://morvanzhou.github.io/tutorials)
 5. [深度学习经典论文](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap.git)
 6. [斯坦福cs229代码(机器学习算法python徒手实现)](https://github.com/nsoojin/coursera-ml-py.git)  
-7. [吴恩达最新学习：machine learning yearning](https://github.com/AcceptedDoge/machine-learning-yearning-cn)  
+7. [吴恩达机器学习新书：machine learning yearning](https://github.com/AcceptedDoge/machine-learning-yearning-cn)  
+7. [清华大学NLP实验室总结机器阅读论文、数据集](https://github.com/thunlp/RCPapers)  
 8. [本人博客(机器学习基础算法专题)](https://blog.csdn.net/dukuku5038/article/details/82253966)
 
 
