@@ -26,7 +26,7 @@
 ## [作业第二部分(下载用浏览器打开)](https://github.com/learning511/cs224n-learning-camp/blob/master/assigments/CS224n_%20assignment2.html)  
 本部分内容开始使用tensorflow框架进行NLP问题处理  
 1. Tensorflow Softmax 基于Tensorflow的softmax分类
-2. Neural Transition-Based Dependency Parsing 基于神经挽留过的依赖解析  
+2. Neural Transition-Based Dependency Parsing 基于神经网络的依赖解析  
 运行效果：  
 ```
 924/924 [==============================] - 49s - train loss: 0.0631    
