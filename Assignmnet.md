@@ -8,7 +8,7 @@
 - 运行截图  
 - 源代码  
 - 比赛排名(比赛)  
-## [作业第一部分(下载用浏览器打开)](https://github.com/learning511/cs224n-learning-camp/blob/master/assigments/CS224n_%20assignment1.html)  
+## [作业第一部分](https://github.com/learning511/cs224n-learning-camp/blob/master/assigments/assignment1.pdf)  
 本部分内容主要是python徒手实现基础算法和NLP应用初步
 ## Assignment #1.1
 1.1 Softmax 分类算法
@@ -23,7 +23,7 @@
 ![q4_reg_v_acc](http://wx1.sinaimg.cn/large/006Fmjmcly1fgydrwwnsbj30m80godgn.jpg)
 ![q4_dev_conf](http://wx1.sinaimg.cn/large/006Fmjmcly1fgydrmd0wtj30m80gojrx.jpg)
 
-## [作业第二部分(下载用浏览器打开)](https://github.com/learning511/cs224n-learning-camp/blob/master/assigments/CS224n_%20assignment2.html)  
+## [作业第二部分](https://github.com/learning511/cs224n-learning-camp/blob/master/assigments/assignment2.pdf)  
 本部分内容开始使用tensorflow框架进行NLP问题处理  
 1. Tensorflow Softmax 基于Tensorflow的softmax分类
 2. Neural Transition-Based Dependency Parsing 基于神经网络的依赖解析  
@@ -45,7 +45,7 @@ Done!
 运行效果：
 ![unrolled_rnn](http://wx3.sinaimg.cn/large/006Fmjmcly1fgzqfm9p4xj30p60bbdgu.jpg)
 
-## [作业第三部分(下载用浏览器打开)](https://github.com/learning511/cs224n-learning-camp/blob/master/assigments/CS224n_%20assignment3.html)   
+## [作业第三部分](https://github.com/learning511/cs224n-learning-camp/blob/master/assigments/assignment3.pdf)   
 本部分作业主要是一些NLP典型问题的处理  
 ## Assignment #3
 1. window into named entity recognition（NER）基于窗口模式的名称识别  
