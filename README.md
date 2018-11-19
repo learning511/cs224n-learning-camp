@@ -19,6 +19,8 @@
 7. [清华大学NLP实验室总结机器阅读论文、数据集](https://github.com/thunlp/RCPapers)  
 8. [本人博客(机器学习基础算法专题)](https://blog.csdn.net/dukuku5038/article/details/82253966)  
 9. [本人博客(深度学习专题)](https://blog.csdn.net/column/details/28693.html)  
+10. [斯坦福cs20I课件](https://github.com/learning511/cs224n-learning-camp/tree/master/cs20is)  
+11. [AI比赛经验+开源代码汇总](https://blog.csdn.net/dukuku5038/article/details/84195750)  
 
 ## 前言
 自然语言是人类智慧的结晶，自然语言处理是人工智能中最为困难的问题之一，而对自然语言处理的研究也是充满魅力和挑战的。
