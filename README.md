@@ -122,8 +122,9 @@
 - **论文原文:** [paper](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/Bag%20of%20Tricks%20for%20Efficient%20Text%20Classification.pdf)
 - **论文分析:** [highlight](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/highlight/cs224n-2017-lecture3-highlight.pdf)
 - **论文笔记：**[高效文本分类](http://www.hankcs.com/nlp/cs224n-bag-of-tricks-for-efficient-text-classification.html)
-4.  作业: [Assignment 2.2](https://github.com/learning511/cs224n-learning-camp/blob/master/Assignmnet.md) 
-- 2.2 Neural Transition-Based Dependency Parsing 基于神经网络的依赖分析
+4.  作业: [Assignment 2 准备](https://github.com/learning511/cs224n-learning-camp/blob/master/Assignmnet.md) 
+- 2.0.1 预习TensorFlow  
+- 2.0.2 仔细阅读作业2的要求，自学作业里要求里提到的神经网络训练方法  
 
 ### Week4
 1. TensorFlow入门
@@ -141,7 +142,8 @@
 - **论文分析:** [highlight](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/highlight/cs224n-2017-lecture4-highlight.pdf)
 - **论文笔记：**[词嵌入对传统方法的启发](http://www.hankcs.com/nlp/cs224n-improve-word-embeddings.html)
 4. 作业：[Assignment 2.1](https://github.com/learning511/cs224n-learning-camp/blob/master/Assignmnet.md)  
-- 2.1 Tensorflow Softmax 基于TensorFlow的softmax分类
+- 2.1 Tensorflow Softmax 基于TensorFlow的softmax分类  
+- 2.2 Neural Transition-Based Dependency Parsing 基于神经网络的依赖分析  
 
 ### Week5
 1.  高级LSTM及GRU：LSTM and GRU
