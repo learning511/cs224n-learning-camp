@@ -63,7 +63,7 @@
 - 周三、周六休息^_^  
 
 #### 作业提交指南：  
- 训练营的作业自检系统已经正式上线啦！只需将作业发送到训练营公共邮箱即可，知识星球以打卡为主，不用提交作业。以下为注意事项:  
+ 训练营的作业自检系统已经正式上线啦！只需将作业发送到训练营公共邮箱即可，训练营以打卡为主，不用提交作业。以下为注意事项:  
 <0> 课程资料：[链接](https://pan.baidu.com/s/1p1J9kyoNZIwqCRmaX6lvoQ) 密码：zwjr  
 <1> 训练营代码公共邮箱：cs224n@163.com  
 <2> [查询自己成绩:](https://shimo.im/sheet/fUz1SurlKPgAMecw/RIDOC)  
@@ -114,7 +114,7 @@
 - **学习笔记:** [反向传播与项目指导](http://www.hankcs.com/nlp/cs224n-backpropagation-and-project-advice.html)
 
 2. 依赖解析：Dependency Parsing 
-- **课件:** [lecture06](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture3.pdf)
+- **课件:** [lecture06](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture6.pdf)
 - [观看视频6](https://www.bilibili.com/video/av30326868/?p=6)
 - **学习笔记:** [句法分析和依赖解析](http://www.hankcs.com/nlp/cs224n-dependency-parsing.html)
 
