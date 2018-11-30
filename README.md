@@ -22,6 +22,7 @@
 10. [本人博客(深度学习专题)](https://blog.csdn.net/column/details/28693.html)  
 11. [斯坦福cs20I课件](https://github.com/learning511/cs224n-learning-camp/tree/master/cs20is)  
 12. [AI比赛经验+开源代码汇总](https://blog.csdn.net/dukuku5038/article/details/84195750)  
+13. [Deep Learning in Natural Language Processing(微软：邓力博士,清华：刘洋博士)](https://github.com/learning511/cs224n-learning-camp/blob/master/resources/Deep%2BLearning%2Bin%2BNatural%2BLanguage%2BProcessing.pdf)  
 
 ## 前言
 自然语言是人类智慧的结晶，自然语言处理是人工智能中最为困难的问题之一，而对自然语言处理的研究也是充满魅力和挑战的。
