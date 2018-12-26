@@ -236,7 +236,7 @@
 - **论文分析:** [highlight](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/highlight/cs224n-2017-lecture12-highlight.pdf)  
 - **论文笔记：**[学习代码中的语义](http://www.hankcs.com/nlp/cs224n-program-embeddings.html)
 4. **课程大作业：**  
-全球AI挑战赛[观点型问题阅读理解数据集2018](https://challenger.ai/dataset/oqmrcd2018)
+[Kaggle：Quora垃圾问题分类](https://www.kaggle.com/c/quora-insincere-questions-classification)
 
 ### Week10 
 1. 挑战深度学习与自然语言处理的极限
