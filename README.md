@@ -229,7 +229,7 @@
 2.  NLP存在的问题与未来的架构
 - **课件:** [lecture17](https://github.com/learning511/cs224n-learning-camp/blob/master/lecture-notes/cs224n-2017-lecture17.pdf)
 - [观看视频](https://www.bilibili.com/video/av30326868/?p=17)
-- ****学习笔记****：[指代消解](http://www.hankcs.com/nlp/cs224n-nlp-issues-architectures.html)
+- ****学习笔记****：[NLP存在的问题与未来的架构](http://www.hankcs.com/nlp/cs224n-nlp-issues-architectures.html)
 
 3. **论文导读**：学习代码中的语义
 - **论文原文:** [paper](https://github.com/learning511/cs224n-learning-camp/blob/master/paper/Learning%20Program%20Embeddings%20to%20Propagate%20Feedback%20on%20Student%20Code.pdf)
