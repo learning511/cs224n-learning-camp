@@ -3,7 +3,7 @@
 ## 课程资料
 1. [课程主页](https://web.stanford.edu/class/cs224n/)  
 2. [中文笔记](http://www.hankcs.com/nlp/cs224n-introduction-to-nlp-and-deep-learning.html)  
-3. [课程视频](https://www.bilibili.com/video/av30326868/?spm_id_from=333.788.videocard.0)  
+3. [课程视频](https://study.163.com/course/courseMain.htm?courseId=1006185093&_trace_c_p_k2_=beb4b40d66ab4ff89f94a5f77c099d16)  
 4.  实验环境推荐使用Linux或者Mac系统，以下环境搭建方法皆适用:  
     [Docker环境配置](https://github.com/ufoym/deepo)  
     [本地环境配置](https://github.com/learning511/cs224n-learning-camp/blob/master/environment.md)
